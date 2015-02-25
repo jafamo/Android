@@ -11,4 +11,4 @@ Link:
 http://developer.android.com/sdk/index.html
 
 
-<link href="http://www.edx.org/course/jugando-con-android-aprende-programar-tu-uamx-android301x#.VO49hnV6_NM"> Course EDX</link>
+http://www.edx.org/course/jugando-con-android-aprende-programar-tu-uamx-android301x#.VO49hnV6_NM

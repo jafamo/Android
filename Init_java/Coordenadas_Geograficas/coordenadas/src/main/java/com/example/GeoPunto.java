@@ -10,13 +10,17 @@ public class GeoPunto {
 
     /**
      *   Constructor con dos parametros
+     *
+     *   esta representación es la utilizada en el API de Google Maps
+     *   millonesima en vez de grados.
+     *
      *@param longitud
      *@param latitud
      */
 
     public GeoPunto(double longitud,double latitud){
-        this.longitud = longitud;
-        this.latitud = latitud;
+        this.longitud = (int) (longitud * 1E6);
+        this.latitud = (int) (latitud * 1E6);
 
     }
 

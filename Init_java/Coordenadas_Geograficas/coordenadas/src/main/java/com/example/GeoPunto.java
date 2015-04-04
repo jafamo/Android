@@ -8,9 +8,10 @@ public class GeoPunto {
 
 
 
-    /*
-
-        Constructor con dos parametros
+    /**
+     *   Constructor con dos parametros
+     *@param longitud
+     *@param latitud
      */
 
     public GeoPunto(double longitud,double latitud){
@@ -19,11 +20,8 @@ public class GeoPunto {
 
     }
 
-    /*
-    Get and Set attributes
-
-
-
+    /**
+     *   Get and Set attributes
      */
     public double getLatitud() {
         return latitud;
@@ -41,13 +39,22 @@ public class GeoPunto {
         this.latitud = latitud;
     }
 
-
-    
-
+    /**
+     * Metodo que retorna la informacion de un punto.
+     * @return string
+     */
     public String toString(){
         return "Longitud: "+this.longitud+"\nLatitud: "+this.latitud;
     }
 
+
+    /**
+     *Aproximar la distancia en metros entre dos coordenadas.
+     * Podemos utilizar el algoritmo Haversine
+     *
+     * @param punto
+     * @return double
+     */
     public double distancia(GeoPunto punto){
 
 

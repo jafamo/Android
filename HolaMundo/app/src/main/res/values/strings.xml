@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Hola Mundo</string>
-
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hola mundo, jafamo!</string>
     <string name="action_settings">Settings</string>
 </resources>

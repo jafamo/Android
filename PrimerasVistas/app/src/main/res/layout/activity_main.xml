@@ -36,3 +36,6 @@
         android:id="@+id/ratingBar" />
 
 </LinearLayout>
+
+
+    

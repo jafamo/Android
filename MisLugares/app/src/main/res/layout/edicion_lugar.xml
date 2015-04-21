@@ -1,0 +1,137 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+
+    <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: "
+            android:id="@+id/Nombre"
+            android:layout_alignParentTop="true"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_nombre"
+            android:hint="algo que identifique el lugar"
+            android:layout_below="@+id/Nombre" />
+        <requestFocus/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tipo"
+            android:id="@+id/tipo"
+            android:layout_below="@+id/t_nombre"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignTop="@id/tipo"
+            android:layout_toRightOf="@id/tipo"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direccion"
+            android:id="@+id/direccion"
+            android:layout_below="@+id/spinner"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_direccion"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:layout_below="@+id/direccion"
+            android:hint="dirección del lugar"
+            android:inputType="textPostalAddress"/>
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:id="@+id/telefono"
+            android:layout_below="@+id/t_direccion"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:id="@+id/t_telefono"
+            android:layout_below="@+id/t_direccion"
+            android:layout_toRightOf="@+id/telefono" />
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Url"
+            android:id="@+id/url"
+            android:layout_below="@+id/telefono"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_url"
+            android:hint="sitio web"
+            android:layout_below="@+id/url"
+            android:inputType="textUri"/>
+
+
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comentario"
+            android:id="@+id/comentario"
+            android:layout_below="@+id/t_url"
+            android:textAppearance="?android:attr/textAppearanceMedium"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/t_comentario"
+            android:hint="Comentarios que quieras hacer"
+            android:layout_below="@+id/comentario"
+            android:inputType="textMultiLine"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

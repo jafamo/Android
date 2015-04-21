@@ -5,8 +5,27 @@
 
 
 
+Layouts:
+
+
+
 Layout1:
 ![alt text](https://courses.edx.org/c4x/UPValenciaX/AIP201x/asset/practica_layouts.png "Layout1")
+
+
+
+
+
+
+Layout2:
+![alt text](https://courses.edx.org/c4x/UPValenciaX/AIP201x/asset/practica_layouts1.png "Layout2")
+
+
+
+
+
+Layout3:
+![alt text](https://courses.edx.org/c4x/UPValenciaX/AIP201x/asset/practica_layouts2.png "Layout3")
 
 
 

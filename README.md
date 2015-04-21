@@ -5,11 +5,23 @@
 
 
 
-Layouts:
+<h2>Indice</h2>
+<ul>
+	<li><a href="#indiceLayout"> Layout1</a></li>
+	<li><a href="#reference">Links</a></li>
+</ul>
+
+
+
+
+
+<h3 id="indiceLayout">Layouts:</h3>
 
 
 
 Layout1:
+
+
 ![alt text](https://courses.edx.org/c4x/UPValenciaX/AIP201x/asset/practica_layouts.png "Layout1")
 
 
@@ -18,19 +30,30 @@ Layout1:
 
 
 Layout2:
+
+
 ![alt text](https://courses.edx.org/c4x/UPValenciaX/AIP201x/asset/practica_layouts1.png "Layout2")
 
 
 
 
 
+
 Layout3:
+
+
 ![alt text](https://courses.edx.org/c4x/UPValenciaX/AIP201x/asset/practica_layouts2.png "Layout3")
 
 
 
 
-Link:
+
+
+
+
+
+
+<h3 id="reference">Link:</h3>
 http://developer.android.com/sdk/index.html
 
 

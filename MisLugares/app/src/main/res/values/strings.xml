@@ -5,4 +5,5 @@
     <string name="accion_preferencias">Preferencias</string>
     <string name="accion_acerca">Acerca_de</string>
     <string name="accion_salir">Salir</string>
+    <string name="action_settings">Settings </string>
 </resources>

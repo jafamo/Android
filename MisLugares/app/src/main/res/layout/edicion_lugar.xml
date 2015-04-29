@@ -27,30 +27,32 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Mostrar Lugares"
+        android:text="@string/accion_mostrar"
         android:id="@+id/button"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Preferencias"
+        android:text="@string/accion_preferencias"
         android:id="@+id/button2"
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Acerca de..."
+        android:text="@string/accion_acerca"
         android:id="@+id/button3"
+
         />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Salir"
+        android:text="@string/accion_salir"
         android:id="@+id/button4"
         />
 
 
 </LinearLayout>
+    android:text="@string/accion_acerca_de"/>

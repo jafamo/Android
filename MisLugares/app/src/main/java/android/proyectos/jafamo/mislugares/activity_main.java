@@ -6,7 +6,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 
-public class EdicionLugarActivity extends ActionBarActivity {
+public class activity_main extends ActionBarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

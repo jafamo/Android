@@ -5,4 +5,13 @@
         <!-- Customize your theme here. -->
     </style>
 
+
+    <style name="MiTema" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="android:shadowColor" >#000000</item>
+        <item name="android:background">#00AAF1</item>
+
+    </style>
+
+
 </resources>

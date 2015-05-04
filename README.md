@@ -9,6 +9,7 @@
 <ul>
 	<li><a href="#indiceLayout"> Layout1</a></li>
 	<li><a href="#style"> Style</a></li>
+	<li><a href="theme"> Theme</a></li>
 	<li><a href="#reference">Links</a></li>
 </ul>
 
@@ -81,12 +82,39 @@ Example:
 
 
 Use:
+
 When you have a TextView or other:
 <code>
-<TextView
+	<TextView
 	style="@style/MiEstilo
 
 </code>
+
+<h3 id="theme">Theme</h3>
+
+For you used themes news:
+
+<h5>1.- Create new style</h5>
+<p>	(You can add new style inside "styles.xml")</p>
+<p>For example:</p>
+<code>
+	<style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+	</style>
+</code>
+	
+<h5>2.-  Modify file  "AndroidManifest.xml"</h5>
+<p>
+You can modify theme or style for Application or Activity
+</p>
+<code>
+	android:theme="@style/MyTheme"
+</code>
+
+
+
+
+
 <h3 id="reference">Link:</h3>
 http://developer.android.com/sdk/index.html
 

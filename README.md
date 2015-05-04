@@ -9,7 +9,7 @@
 <ul>
 	<li><a href="#indiceLayout"> Layout1</a></li>
 	<li><a href="#style"> Style</a></li>
-	<li><a href="theme"> Theme</a></li>
+	<li><a href="#theme"> Theme</a></li>
 	<li><a href="#reference">Links</a></li>
 </ul>
 

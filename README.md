@@ -8,6 +8,7 @@
 <h2>Indice</h2>
 <ul>
 	<li><a href="#indiceLayout"> Layout1</a></li>
+	<li><a href="#style"> Style</a></li>
 	<li><a href="#reference">Links</a></li>
 </ul>
 
@@ -47,12 +48,45 @@ Layout3:
 
 
 
+<h3 id="style">Style</h3>
+
+Style is like CSS.
+
+Create new style:
+<code> res/values/MiEstilo.xml</code>
+
+Example:
+<code>
+
+<resources>
+
+   <style name="MiEstilo"
+
+     parent="@android:style/TextAppearance.Medium">
+
+       <item name="android:layout_width">match_parent</item>
+
+       <item name="android:layout_height">wrap_content</item>
+
+       <item name="android:textColor">#00FF00</item>
+
+       <item name="android:typeface">monospace</item>
+
+   </style>
+
+</resources>
+
+</code>
 
 
 
+Use:
+When you have a TextView or other:
+<code>
+<TextView
+	style="@style/MiEstilo
 
-
-
+</code>
 <h3 id="reference">Link:</h3>
 http://developer.android.com/sdk/index.html
 

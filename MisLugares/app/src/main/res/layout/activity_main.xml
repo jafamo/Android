@@ -11,6 +11,8 @@
 
 
     <TextView
+        style="@style/MiEstilo"
+
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Mis Lugares"
@@ -25,6 +27,7 @@
         android:layout_weight="0.08"/>
 
     <Button
+        style="@style/MiEstilo.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/accion_mostrar"
@@ -39,6 +42,7 @@
         />
 
     <Button
+        style="@style/MiEstilo.Botones"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/accion_acerca"

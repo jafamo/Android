@@ -90,6 +90,9 @@ When you have a TextView or other:
 
 </code>
 
+
+
+
 <h3 id="theme">Theme</h3>
 
 For you used themes news:
@@ -99,19 +102,19 @@ You can add new style inside "styles.xml"
 
 For example:
 
-<code>
-	<style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+	<code>
+		<style name="MyTheme" parent="Theme.AppCompat.Light.DarkActionBar">
 
-	</style>
-</code>
+		</style>
+	</code>
 	
 <h5>2.-  Modify file  "AndroidManifest.xml"</h5>
 
 You can modify theme or style for Application or Activity
 
-<code>
-	android:theme="@style/MyTheme"
-</code>
+	<code>
+		android:theme="@style/MyTheme"
+	</code>
 
 
 

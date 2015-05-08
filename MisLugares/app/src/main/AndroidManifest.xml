@@ -20,6 +20,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity   android:name=".AcercaDe"
+                    android:label="Acerca de ..."/>
     </application>
 
 </manifest>
